@@ -3,7 +3,6 @@ package org.example.demotgbot.service;
 import org.example.demotgbot.model.Weather;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
 @Service
 public class WeatherService {
     public Weather getWeather() {
