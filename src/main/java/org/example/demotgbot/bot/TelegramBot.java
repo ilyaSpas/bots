@@ -58,7 +58,7 @@ public class TelegramBot extends TelegramLongPollingBot {
                     break;
                 case "/weather":
                     Weather weather =  weatherService.getWeather();
-                    sendMessage(chatId, "Погода в городе Москва:\n" +
+                    sendMessage(chatId, "Погода в городе Москва: \n" +
                                         weather.getCurrent().getCondition().getText() + "\n" +
                                         "Температура: " + weather.getCurrent().getTemp_c());
                     break;
