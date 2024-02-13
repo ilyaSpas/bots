@@ -63,7 +63,7 @@ public class TelegramBot extends TelegramLongPollingBot {
                                         "Температура: " + weather.getCurrent().getTemp_c());
                     break;
                 case "/help":
-                    sendMessage(chatId, "По вропросам сотрудничества:\n" +
+                    sendMessage(chatId, "По вропросам сотрудничества: \n" +
                                         "Спасский Илья\n" +
                                         "тел.: 8(915)-483-56-36\n" +
                                         "почта: spasskiy.iv@yandex.ru");
